@@ -1,0 +1,8 @@
+name: Issues
+on: issues
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch code
+        run: echo ${{ <github> }}

@@ -47,6 +47,6 @@ jobs:
       - name: Show files
         run: ls -la dist
       - name: Show filename
-        run: echo "${{ needs.build.output.filename }}"
+        run: echo "${{ needs.build.outputs.filename }}"
       - name: Deploy
         run: echo "Deploying..."

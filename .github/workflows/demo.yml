@@ -40,6 +40,6 @@ jobs:
           name: dist-files
           path: dist
       - name: Show files
-        run: ls -la
+        run: ls -la dist
       - name: Deploy
         run: echo "Deploying..."

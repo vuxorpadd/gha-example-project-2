@@ -1,8 +1,0 @@
-name: Issues
-on: [issues, workflow_dispatch]
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Fetch code
-        run: echo "${{ toJson(github.event) }}"
